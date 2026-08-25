@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Tecnico Dartwig</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div class="min-h-screen flex flex-col items-center justify-center px-6 py-12">
+        <!-- Logo Section -->
+        <div class="mb-8">
+            <div class="w-40 h-40 md:w-48 md:h-48 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center border-4 border-white/20 shadow-2xl overflow-hidden">
+                <img 
+                    id="logo" 
+                    src="source/logo.png" 
+                    alt="Logo Dartwig" 
+                    class="w-full h-full object-cover"
+                >
+            </div>
+        </div>
+
+        <!-- Title -->
+        <h1 class="text-3xl md:text-4xl font-bold text-white text-center mb-8 tracking-wide">
+            Servicio Tecnico Dartwig
+        </h1>
+
+        <!-- Social Media Section -->
+        <div class="w-full max-w-md mb-10">
+            <h2 class="text-xl md:text-2xl font-semibold text-white/90 text-center mb-6">
+                Redes Sociales
+            </h2>
+            <div class="flex justify-center gap-6 md:gap-8">
+                <!-- WhatsApp -->
+                <a 
+                    href="https://wa.me/qr/YCDEVRAEGW2UL1" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="group flex flex-col items-center gap-2 transition-transform hover:scale-110"
+                >
+                    <img src="source/whatsapp_icon.png" alt="WhatsApp" class="w-14 h-14 md:w-16 md:h-16 object-contain rounded-lg">
+                    <span class="text-white/80 text-sm font-medium">WhatsApp</span>
+                </a>
+
+                <!-- Instagram -->
+                <a 
+                    href="https://www.instagram.com/serviciotecnicodartwig?igsi=MTVkbzA5YTYycDZ3ZA==" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="group flex flex-col items-center gap-2 transition-transform hover:scale-110"
+                >
+                    <img src="source/Instagram_icon.png" alt="Instagram" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                    <span class="text-white/80 text-sm font-medium">Instagram</span>
+                </a>
+
+                <!-- TikTok -->
+                <a 
+                    href="https://www.tiktok.com/@servicio.tecnico.dartwig?_r=1&_t=ZS-99BZ0romlFf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="group flex flex-col items-center gap-2 transition-transform hover:scale-110"
+                >
+                    <img src="source/tiktok.png" alt="TikTok" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                    <span class="text-white/80 text-sm font-medium">TikTok</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Google Maps Review Section -->
+        <div class="w-full max-w-md">
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-xl">
+                <h2 class="text-lg md:text-xl font-semibold text-white/90 text-center mb-4">
+                    Deja una reseña en Google Maps
+                </h2>
+                <a 
+                    href="https://maps.app.goo.gl/Vh63H9WzuT4vzL1V8?g_st=ac" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-xl transition-colors shadow-lg hover:shadow-blue-500/50"
+                >
+                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                    <span>Escribir Reseña</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
